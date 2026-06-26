@@ -39,8 +39,7 @@ UAS/
 [ Client A ] ----\
                    \
 [ Client B ] -------> [ Server (port 5050) ] ---- broadcast ----> ke semua client lain
-                   /
-[ Client C ] ----/
+
 ```
 
 Server bersifat **concurrent** (banyak thread), sedangkan setiap client
