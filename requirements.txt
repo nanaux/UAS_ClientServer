@@ -1,0 +1,29 @@
+# requirements.txt
+# ============================================================
+# Proyek: Telegram-Clone (Simple Chat Room - Client Server)
+# Mata Kuliah : Client Server Programming
+# Mahasiswa   : Hanna Fadilah (23343068)
+# ============================================================
+#
+# Catatan:
+# Program ini SENGAJA dirancang tanpa dependency pihak ketiga.
+# Seluruh fungsionalitas (socket, threading, encoding JSON jika
+# diperlukan, datetime) menggunakan PUSTAKA STANDAR (built-in)
+# yang sudah tersedia pada instalasi Python 3.x manapun.
+#
+# Modul standar yang digunakan:
+#   - socket      (komunikasi TCP/IP)
+#   - threading   (konkurensi / multi-client handling)
+#   - datetime    (timestamp log server)
+#   - sys         (penanganan exit pada client)
+#
+# Oleh karena itu, file ini tidak memiliki baris dependency.
+# File tetap disertakan untuk memenuhi konvensi struktur proyek
+# Python yang baik dan sebagai dokumentasi bahwa proyek ini
+# telah diverifikasi tidak membutuhkan instalasi tambahan apa pun.
+#
+# Persyaratan minimum:
+#   Python >= 3.8
+#
+# Instalasi (tidak ada paket yang perlu dipasang):
+#   pip install -r requirements.txt
