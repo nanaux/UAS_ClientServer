@@ -31,26 +31,6 @@ UAS/
 └── requirements.txt     # Daftar dependency (tidak ada, hanya pustaka standar)
 ```
 
----
-
-## 3. Arsitektur Singkat
-
-```
-[ Client A ] ----\
-                   \
-[ Client B ] -------> [ Server (port 5050) ] ---- broadcast ----> ke semua client lain
-
-```
-
-Server bersifat **concurrent** (banyak thread), sedangkan setiap client
-memiliki dua thread: satu untuk mengirim input pengguna, satu untuk
-menerima pesan masuk secara terus-menerus (non-blocking).
-
-Diagram arsitektur dan flow komunikasi yang lebih rinci tersedia pada
-berkas presentasi (`Format_Notation.pptx`, slide 5 dan slide 8).
-
----
-
 ## 4. Fitur yang Diimplementasikan
 
 | No | Fitur | Keterangan |
