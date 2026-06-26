@@ -31,7 +31,7 @@ UAS/
 └── requirements.txt     # Daftar dependency (tidak ada, hanya pustaka standar)
 ```
 
-## 4. Fitur yang Diimplementasikan
+## 3. Fitur yang Diimplementasikan
 
 | No | Fitur | Keterangan |
 |----|-------|------------|
@@ -45,7 +45,7 @@ UAS/
 
 ---
 
-## 5. Persyaratan Sistem
+## 4. Persyaratan Sistem
 
 - Python **3.8** atau lebih baru
 - Tidak memerlukan instalasi pustaka tambahan (lihat `requirements.txt`)
@@ -53,7 +53,7 @@ UAS/
 
 ---
 
-## 6. Cara Menjalankan Program
+## 5. Cara Menjalankan Program
 
 ### Langkah 1 — Jalankan Server
 
@@ -106,7 +106,7 @@ Tekan `CTRL + C` pada terminal server untuk menghentikan server.
 
 ---
 
-## 7. Contoh Sesi Penggunaan
+## 6. Contoh Sesi Penggunaan
 
 ```
 PS D:\...\UAS> python chat_server.py
@@ -124,7 +124,7 @@ PS D:\...\UAS> python chat_server.py
 
 ---
 
-## 8. Konfigurasi
+## 7. Konfigurasi
 
 Parameter koneksi didefinisikan di bagian atas masing-masing berkas
 dan dapat disesuaikan sesuai kebutuhan:
@@ -146,7 +146,7 @@ firewall mengizinkan koneksi masuk pada port `5050`.
 
 ---
 
-## 9. Keterbatasan (Limitations)
+## 8. Keterbatasan (Limitations)
 
 Sebagai implementasi sederhana untuk tujuan pembelajaran, proyek ini
 memiliki keterbatasan dibandingkan Telegram yang sesungguhnya:
